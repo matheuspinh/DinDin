@@ -1,0 +1,37 @@
+.edit-profile-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.edit-profile-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input-fields {
+  display: flex;
+  flex-direction: column;
+  margin-top: 42px;
+}
+
+.input-fields label {
+  font-family: Rubik;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0px;
+  text-align: left;
+  margin-bottom: 8.77px;
+  color: #484848;
+}
+
+.input-fields input {
+  border: 1px solid #555555;
+  border-radius: 5px;
+  padding: 10px;
+  width: 485px;
+  height: 63px;
+  margin-bottom: 20px;
+}

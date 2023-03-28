@@ -1,0 +1,66 @@
+.addregistry-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.addregistry-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input-fields {
+  display: flex;
+  flex-direction: column;
+  margin-top: 42px;
+}
+
+.input-fields label {
+  font-family: Rubik;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0px;
+  text-align: left;
+  margin-bottom: 8.77px;
+  color: #484848;
+}
+
+.input-fields input {
+  font-family: Rubik;
+  border: 1px solid #555555;
+  border-radius: 5px;
+  padding: 10px;
+  width: 485px;
+  height: 63px;
+  margin-bottom: 20px;
+}
+
+.input-fields select {
+  border: 1px solid #555555;
+  border-radius: 5px;
+  background-color: #FFFFFF;
+  padding: 10px;
+  width: 485px;
+  height: 63px;
+  margin-bottom: 26px;
+}
+
+.input-fields button {
+  border-style: none;
+  margin-top: 23px;
+  font-family: Rubik;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #FFFFFF;
+  width: 236px;
+  height: 42px;
+  background: #7978D9;
+  border-radius: 5px;
+  align-self: center;
+  cursor: pointer;
+}

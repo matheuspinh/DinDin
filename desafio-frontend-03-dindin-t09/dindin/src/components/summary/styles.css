@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500;700&display=swap');
+
+.summary-container {
+  display: flex;
+  flex-direction: column;
+  padding: 26px 33px 31px 33px;
+  width: 236px;
+  height: 196px;
+  background: #FAFAFA;
+  box-shadow: 0px 2px 11px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.summary-container h2 {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  margin-bottom: 23px;
+}
+
+.summary-container div {
+  display: flex;
+  width: 170px;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.summary-container p {
+  font-family: Rubik;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 15px;
+  letter-spacing: 0em;
+}
+
+.summary-container .income .value {
+  color: #645FFB;
+  align-self: flex-end;
+}
+
+.summary-container .expense .value {
+  color: #FA8C10;
+}
+
+.summary-container .balance .value {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #3A9FF1;
+}
+
+.summary-container .line {
+  width: 189px;
+  border: 1px solid #EAEAEA;
+  margin-top: 7px;
+}
+
+.summary-container strong {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #2F2F2F;
+}

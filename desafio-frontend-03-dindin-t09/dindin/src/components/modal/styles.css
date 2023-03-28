@@ -1,0 +1,41 @@
+.modal-container {
+  background: rgba(0, 0, 0, 0.7);
+
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  overflow-y: scroll;
+}
+
+.modal-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  width: 611px;
+  height: 879px;
+  background-color: white;
+}
+
+.modal-box div h1 {
+  margin-bottom: 52px;
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.modal-box .close-icon {
+  position: relative;
+  left: 235px;
+  top: 45px;
+}

@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500;700&display=swap');
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 118px;
+  width: 100%;
+  padding: 0 100px 0 100px;
+}
+
+.header-container div {
+  display: flex;
+  align-items: center;
+}
+
+.header-container div h3 {
+  font-family: 'Rubik';
+  color: #FFFFFF;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  margin: 0 16px 0 7px;
+}
+
+.header-container div img {
+  cursor: pointer;
+}

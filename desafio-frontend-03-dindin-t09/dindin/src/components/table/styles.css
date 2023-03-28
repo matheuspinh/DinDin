@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+table {
+  border-collapse: collapse;
+  width: 964px;
+  font-family: 'Lato', sans-serif;
+}
+
+.table-head {
+  height: 58px;
+  background: #FAFAFA;
+  box-shadow: 0px 2px 11px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.table-head img {
+  width: 20px;
+  padding-left: 5px;
+  cursor: pointer;
+}
+
+.table-row {
+  height: 69px;
+  border-bottom: 1px solid #E0E0E0;
+}
+
+.infos {
+  text-align: center;
+}
+
+.data {
+  vertical-align: middle;
+  text-align: left;
+  padding-left: 27px;
+  font-weight: bold;
+}
+
+.row-buttons {
+  height: 69px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.row-buttons img {
+  padding: 0 10px 0 10px;
+  height: 24px;
+  cursor: pointer;
+}
+
+.valor-entrada {
+  color: #7B61FF;
+}
+
+.valor-saida {
+  color: #FA8C10;
+}
+
+.descricao {
+  width: 255px;
+}
+
+.categoria {
+  width: 120px;
+}
+
+.table-buttons {
+  display: flex;
+  align-content: center;
+  align-self: center;
+  padding-top: 20px;
+}
+
+.table-buttons img {
+  height: 24px;
+  width: 24px;
+}

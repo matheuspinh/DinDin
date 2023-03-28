@@ -1,0 +1,138 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  height: 100vh;
+  width: 100vw;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container .logo {
+  position: relative;
+  top: 41px;
+  left: 100px;
+  width: 169px;
+  height: 45px;
+}
+
+.login-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 194px;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 513px;
+  padding: 0 32px 0 32px;
+  height: 535px;
+  background-color: white;
+  align-items: center;
+}
+
+.login-form input {
+  width: 449px;
+  height: 63px;
+  padding: 10px;
+  border: 1px solid #555555;
+  border-radius: 5px;
+  margin-bottom: 31px;
+}
+
+.login-form label {
+  font-family: 'Rubik';
+  margin-bottom: 8px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  align-self: flex-start;
+  color: #484848;
+}
+
+.login-form h2 {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 33px;
+  color: #7978D9;
+  margin: 60px 0 48px 0;
+}
+
+.login-form p {
+  color: lightcoral;
+  line-height: 0;
+}
+
+.login-form button {
+  border-style: none;
+  width: 449px;
+  margin-top: 42px;
+  background: #7978D9;
+  height: 48px;
+  border-radius: 5px;
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  align-items: center;
+  text-align: center;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+
+.side-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 614px;
+}
+
+.side-text h1 {
+  width: 614px;
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 52px;
+  line-height: 62px;
+  color: #FFFFFF;
+  margin-bottom: 33px;
+}
+
+.side-text h1 strong {
+  color: #7978D9;
+}
+
+.side-text h2 {
+  width: 600px;
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 33px;
+  color: #FFFFFF;
+  margin-bottom: 43px;
+}
+
+.side-text button {
+  border-style: none;
+  width: 284px;
+  height: 48px;
+  border-radius: 5px;
+  background: #7978D9;
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: white;
+  cursor: pointer;
+}

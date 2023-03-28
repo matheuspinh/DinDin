@@ -1,0 +1,27 @@
+.selection-box {
+  display: flex;
+  width: 489px;
+  height: 56px;
+}
+
+.selection-button {
+  font-family: Rubik;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: center;
+  width: 244px;
+  border-style: none;
+  border-radius: 5px;
+  color: white;
+  background-color: #b9b9b9;
+}
+
+.selection-button.expense.selected {
+  background-color: #FF576B;
+}
+
+.selection-button.income.selected {
+  background-color: #3A9FF1;
+}

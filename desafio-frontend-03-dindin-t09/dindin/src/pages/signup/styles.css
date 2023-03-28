@@ -1,0 +1,105 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  height: 100vh;
+  width: 100vw;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container .logo {
+  position: relative;
+  top: 41px;
+  left: 100px;
+  width: 169px;
+  height: 45px;
+}
+
+.signup-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 72px;
+}
+
+.signup-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 513px;
+  padding: 0 32px 0 32px;
+  height: 781px;
+  background-color: white;
+  align-items: center;
+}
+
+.signup-form input {
+  width: 449px;
+  height: 63px;
+  padding: 10px;
+  border: 1px solid #555555;
+  border-radius: 5px;
+  margin-bottom: 31px;
+}
+
+.signup-form label {
+  font-family: 'Rubik';
+  margin-bottom: 8px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  align-self: flex-start;
+  color: #484848;
+}
+
+.signup-form h2 {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 33px;
+  color: #7978D9;
+  margin: 60px 0 42px 0;
+}
+
+.signup-form button {
+  border-style: none;
+  width: 449px;
+  background: #7978D9;
+  height: 48px;
+  margin-top: 7px;
+  margin-bottom: 12px;
+  border-radius: 5px;
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  align-items: center;
+  text-align: center;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+
+.signup-form p {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #7B61FF;
+}
+
+.signup-form a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.signup-form .error {
+  color: lightcoral;
+  line-height: 0;
+}
