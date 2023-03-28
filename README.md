@@ -1,7 +1,7 @@
 # DinDin
 ## _Controle suas finanças sem planilha chata._
 
-DinDin é uma aplicação para organização financeira. Nela o usuário, após criar uma conta, pode registrar todas suas movimentações financeiras centralizando as informações e assim pode ter melhor controle das suas própriuas finanças.
+DinDin é uma aplicação para organização financeira, que faz uso das tecnologias `ReactJS` na interface, `NodeJS` na criação da `API REST` e `PostgreSQL` na criação do banco de dados. Nela o usuário, após criar uma conta, pode registrar todas suas movimentações financeiras centralizando as informações e assim pode ter melhor controle das suas própriuas finanças.
 
 ## Features
 
@@ -43,4 +43,4 @@ npm start
 ```
 ## Documentação
 
-A documentação de cada stack pode ser encontrada no Readme.md em seus respectivos repositórios.
+A documentação de cada stack pode ser encontrada no README.md em seus respectivos repositórios.
