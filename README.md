@@ -21,7 +21,7 @@ DinDin foi desenvolvido com as seguintes tecnologias
 
 ## Instalação
 
-DinDin requer NodeJS e PostgreSQL
+DinDin requer npm, NodeJS e PostgreSQL
 
 Para iniciar o servidor é necessária a criação do banco de dados com os comandos encontrados em `./backend/query.sql`
 Após isso é necessária a configuração das credenciais de conexão com o banco de dados encontradas em `./backend/src/conexao.js`
