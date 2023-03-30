@@ -1,1 +1,1 @@
-module.exports = 'senha123'
+module.exports = process.env.HASH_PASSWORD

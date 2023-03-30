@@ -4,6 +4,7 @@ const jwt = require('jsonwebtoken')
 const senhaJwt = require('../senhaJwt')
 
 const cadastrarUsuario = async (req, res) => {
+  console.log('here')
   const { nome, email, senha } = req.body
   if (!nome || !email || !senha) {
     return res.status(400).json({ mensagem: 'Todos os campos devem ser preenchidos' })
@@ -31,6 +32,7 @@ const cadastrarUsuario = async (req, res) => {
 
     return res.status(201).json(usuario)
   } catch (err) {
+    console.log(err)
     return res.status(500).json({ mensagem: 'Erro interno de servidor' })
   }
 }
