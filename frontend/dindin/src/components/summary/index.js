@@ -14,9 +14,7 @@ export default function Summary({ summary, loadSummary }) {
       navigate('/login');
     }
     loadSummary(token)
-  }, [summary]);
-
-
+  }, []);
 
   return (
     <div className='summary-container'>
