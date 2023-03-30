@@ -5,6 +5,7 @@ const senhaJwt = require('../senhaJwt')
 
 const cadastrarUsuario = async (req, res) => {
   console.log('here')
+  console.log(process.env.DB_HOST)
   const { nome, email, senha } = req.body
   if (!nome || !email || !senha) {
     return res.status(400).json({ mensagem: 'Todos os campos devem ser preenchidos' })
