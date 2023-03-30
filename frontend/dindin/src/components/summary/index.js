@@ -4,7 +4,7 @@ import { getItem } from '../../utils/storage'
 import api from '../../services/api'
 import { useNavigate } from 'react-router-dom'
 
-export default function Summary({ summary, loadSummary }) {
+export default function Summary({ summary, loadSummary, transactions }) {
   const navigate = useNavigate()
 
   const token = getItem('token');
@@ -14,7 +14,7 @@ export default function Summary({ summary, loadSummary }) {
       navigate('/login');
     }
     loadSummary(token)
-  }, []);
+  }, [transactions]);
 
   return (
     <div className='summary-container'>

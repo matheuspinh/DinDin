@@ -41,7 +41,6 @@ export default function Main() {
     if (!transactions.length) {
       loadData(token)
     }
-    loadSummary(token)
   }, [filters]);
 
   async function loadSummary(token) {
@@ -97,7 +96,7 @@ export default function Main() {
             </div>
           </div>
           <div className="summary-box">
-            <Summary summary={summary} loadSummary={loadSummary} transactions={transactions} />
+            <Summary transactions={transactions} summary={summary} loadSummary={loadSummary} />
             <button onClick={(e) => handleModalActive(e, 'addRegistry')} className="add-registry-button">Adicionar registro</button>
           </div>
         </div>
